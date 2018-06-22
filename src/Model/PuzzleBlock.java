@@ -4,24 +4,25 @@ import java.util.Random;
 
 public class PuzzleBlock {
 
-    boolean[][] placedBlocks;
+    boolean[][] blockShape;
     private final int wdith = 40;
     private final int height = 40;
 
+
+    //representation in the constructor is the string out of config text.
     public PuzzleBlock(String representation){
         //rows of booleans, if true, block is placed, if false spot is empty.
-        placedBlocks = new boolean[5][5];
+        blockShape = new boolean[5][5];
         char[] tokens = representation.toCharArray();
         for (int y = 0; y < 5; y++) {
             for (int x = 0; x < 5; x++) {
-                placedBlocks[y][x] = tokens[y*x] == 'x';
+                blockShape[y][x] = tokens[y*x] == 'x';
             }
         }
-        System.out.println(placedBlocks);
     }
 
-    public boolean[][] getPlacedBlocks() {
-        return placedBlocks;
+    public boolean[][] getBlockShape() {
+        return blockShape;
     }
 
     public int getWdith() {
@@ -32,8 +33,5 @@ public class PuzzleBlock {
         return height;
     }
 
-    public void generateRandomBlock(){
-        Random random = new Random();
-        random.nextInt(25);
-    }
+
 }

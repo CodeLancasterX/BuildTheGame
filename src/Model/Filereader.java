@@ -22,7 +22,7 @@ public class Filereader {
             reader.close();
             return puzzleShapes;
         } catch (Exception e) {
-            System.err.format("Exception occurred trying to read '%s'.", textFile);
+//            System.err.format("Exception occurred trying to read '%s'.", textFile);
             e.printStackTrace();
             return null;
         }

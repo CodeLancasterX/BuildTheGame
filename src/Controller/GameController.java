@@ -21,7 +21,11 @@ public class GameController {
 
         //add list of puzzleshapes
         puzzleShapes =  filereader.readFile("C:\\Users\\mredw\\Workpace Neon\\Convinzed\\TentamenProg4\\Config\\config.txt");
-        System.out.println(puzzleShapes.get(0));
+
+        for (int i = 0; i < puzzleShapes.size(); i++) {
+            game.addPuzzleBlocks(puzzleShapes.get(i));
+        }
+
     }
 
     public Game getGame() {

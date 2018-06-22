@@ -1,6 +1,7 @@
 package Model;
 
 import java.util.ArrayList;
+import java.util.Random;
 
 public class Game implements Runnable{
 
@@ -22,12 +23,34 @@ public class Game implements Runnable{
         return dock;
     }
 
-    public void addPuzzleBlocks(){
+    public void addPuzzleBlocks(String representation){
         //add 3 random puzzlepieces.
-        for (int i = 0; i < maxGridSize; i++){
+        PuzzleBlock puzzleBlock = new PuzzleBlock(representation);
+        for (int y = 0; y < 5; y++){
+            for (int x = 0; x < 5; x++){
 
+            //TODO show the right shapes in console. first shape should be -> true false false false false.
+            puzzleBlock.getBlockShape();
+            if (x == 4){
+                System.out.print(puzzleBlock.getBlockShape()[y][x]+ " ");
+                System.out.print(y + " " + x);
+                System.out.println(" ");
+
+            } else {
+                System.out.print(puzzleBlock.getBlockShape()[y][x]+ " ");
+                System.out.print(y + " " + x);
+                System.out.print(" ");
+            }
+
+
+            }
         }
-//        dock.add();
+
+    }
+
+    public void generateRandomBlock(){
+        Random random = new Random();
+        random.nextInt(19);
     }
 
     public Grid getGameGrid() {
