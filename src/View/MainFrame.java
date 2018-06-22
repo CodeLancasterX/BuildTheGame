@@ -1,5 +1,7 @@
 package View;
 
+import Controller.GameController;
+
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -9,16 +11,16 @@ public class MainFrame extends JFrame {
 
     JFileChooser myFileChooser;
 
-    public MainFrame (){
-        setUpGame();
+    public MainFrame(GameController gameController){
+        setUpGame(gameController);
 //        myFileChooser = new JFileChooser();
 //        myFileChooser.setCurrentDirectory(new File(System.getProperty("user.home") + System.getProperty("file.separator") + "/Desktop/Avans/programmeren/Prog 4/Week 2/pictures"));
     }
 
 
 
-    public void setUpGame(){
-        ContentPanel contentPanel = new ContentPanel();
+    public void setUpGame(GameController gameController){
+        ContentPanel contentPanel = new ContentPanel(gameController);
         this.setTitle("Curwen Lancaster 1010");
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
         this.setContentPane(contentPanel);

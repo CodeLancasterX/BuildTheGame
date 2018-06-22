@@ -1,14 +1,16 @@
 package View;
 
+import Controller.GameController;
+
 import javax.swing.*;
 import java.awt.*;
 
 public class ContentPanel extends JPanel {
 
-    public ContentPanel(){
+    public ContentPanel(GameController gameController){
         this.setLayout(new BorderLayout());
         InfoPanel infoPanel = new InfoPanel();
-        GridPanel gridPanel = new GridPanel();
+        GridPanel gridPanel = new GridPanel(gameController);
         DockPanel dockPanel = new DockPanel();
 
         this.add(infoPanel, BorderLayout.PAGE_START);
