@@ -7,23 +7,20 @@ import java.util.List;
 
 public class Filereader {
 
-    String textFile;
+    public Filereader() {
 
-    public Filereader(String textFile) {
-        this.textFile = textFile;
     }
 
-    private List<String> readFile(String textFile) {
-        List<String> records = new ArrayList<String>();
+    public List<String> readFile(String textFile) {
+        List<String> puzzleShapes = new ArrayList<String>();
         try {
             BufferedReader reader = new BufferedReader(new FileReader(textFile));
             String line;
             while ((line = reader.readLine()) != null) {
-                System.out.println(line);
-                records.add(line);
+                puzzleShapes.add(line);
             }
             reader.close();
-            return records;
+            return puzzleShapes;
         } catch (Exception e) {
             System.err.format("Exception occurred trying to read '%s'.", textFile);
             e.printStackTrace();

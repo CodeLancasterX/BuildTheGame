@@ -1,5 +1,7 @@
 package Model;
 
+import java.util.Random;
+
 public class PuzzleBlock {
 
     boolean[][] placedBlocks;
@@ -7,6 +9,7 @@ public class PuzzleBlock {
     private final int height = 40;
 
     public PuzzleBlock(String representation){
+        //rows of booleans, if true, block is placed, if false spot is empty.
         placedBlocks = new boolean[5][5];
         char[] tokens = representation.toCharArray();
         for (int y = 0; y < 5; y++) {
@@ -14,6 +17,7 @@ public class PuzzleBlock {
                 placedBlocks[y][x] = tokens[y*x] == 'x';
             }
         }
+        System.out.println(placedBlocks);
     }
 
     public boolean[][] getPlacedBlocks() {
@@ -26,5 +30,10 @@ public class PuzzleBlock {
 
     public int getHeight() {
         return height;
+    }
+
+    public void generateRandomBlock(){
+        Random random = new Random();
+        random.nextInt(25);
     }
 }
