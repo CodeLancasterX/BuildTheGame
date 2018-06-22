@@ -6,6 +6,8 @@ public class Game implements Runnable{
 
     private Grid gameGrid;
     private ArrayList<PuzzleBlock> dock;
+    private int currentScore;
+    private int topScore;
 
     public Game(){
         gameGrid = new Grid();
@@ -28,4 +30,20 @@ public class Game implements Runnable{
     public Grid getGameGrid() {
         return gameGrid;
     }
+
+	public int getCurrentScore() {
+		return currentScore;
+	}
+
+	public void setCurrentScore(int currentScore) {
+		this.currentScore = currentScore;
+	}
+
+	public int getTopScore() {
+		return topScore;
+	}
+
+	public void setTopScore(int topScore) {
+		this.topScore = topScore;
+	}
 }

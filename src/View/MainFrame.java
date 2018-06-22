@@ -26,8 +26,9 @@ public class MainFrame extends JFrame {
         this.setContentPane(contentPanel);
         this.addMenu();
         this.setResizable(false);
-        this.setVisible(true);
         this.pack();
+        this.setLocationRelativeTo(null);
+        this.setVisible(true);
     }
 
     public void addMenu(){
