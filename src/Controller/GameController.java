@@ -1,5 +1,6 @@
 package Controller;
 
+import Model.Filereader;
 import Model.Game;
 import View.MainFrame;
 
@@ -11,6 +12,7 @@ public class GameController {
     public GameController() {
         mainFrame = new MainFrame(this);
         game = new Game();
+        Filereader filereader = new Filereader();
     }
 
     public Game getGame() {
