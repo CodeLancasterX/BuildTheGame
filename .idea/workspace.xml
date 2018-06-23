@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e10b50e-cd06-4ad3-a6be-46e59ac9f116" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/config.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Config/config.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Save/savegame.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Save/savegame.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tentamen_Prog4_Her/Controller/GameController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tentamen_Prog4_Her/Controller/GameController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tentamen_Prog4_Her/Model/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tentamen_Prog4_Her/Model/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tentamen_Prog4_Her/View/ContentPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tentamen_Prog4_Her/View/ContentPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tentamen_Prog4_Her/View/InfoPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tentamen_Prog4_Her/View/InfoPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tentamen_Prog4_Her/View/MainFrame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tentamen_Prog4_Her/View/MainFrame$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tentamen_Prog4_Her/View/MainFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tentamen_Prog4_Her/View/MainFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/GameController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/PuzzleBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/PuzzleBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tentamen_Prog4_Her/Model/PuzzleBlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tentamen_Prog4_Her/Model/PuzzleBlock.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -118,7 +108,7 @@
       <file leaf-file-name="PuzzleBlock.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Model/PuzzleBlock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
+            <state relative-caret-position="460">
               <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
               <folding>
                 <element signature="e#270#271#0" expanded="true" />
@@ -373,12 +363,18 @@
       <option name="project" value="LOCAL" />
       <updated>1529697335867</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="edited file path, removed local path.&#10;see TODO, need to fix the way shapes get added to the list.">
+      <created>1529752501664</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1529752501664</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -472,7 +468,8 @@
     <MESSAGE value="work in progress." />
     <MESSAGE value="attempting to add random puzzleblocks" />
     <MESSAGE value="see TODO, need to fix the way shapes get added to the list." />
-    <option name="LAST_COMMIT_MESSAGE" value="see TODO, need to fix the way shapes get added to the list." />
+    <MESSAGE value="edited file path, removed local path.&#10;see TODO, need to fix the way shapes get added to the list." />
+    <option name="LAST_COMMIT_MESSAGE" value="edited file path, removed local path.&#10;see TODO, need to fix the way shapes get added to the list." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1022,7 +1019,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Model/PuzzleBlock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
+        <state relative-caret-position="460">
           <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding>
             <element signature="e#270#271#0" expanded="true" />
