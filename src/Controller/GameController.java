@@ -1,11 +1,10 @@
 package Controller;
 
+import java.util.List;
+
 import Model.Filereader;
 import Model.Game;
 import View.MainFrame;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class GameController {
 
@@ -31,7 +30,6 @@ public class GameController {
     public MainFrame getMainFrame() {
         return mainFrame;
     }
-<<<<<<< HEAD
     
     public void setCurrentScore(int score) {
     	game.setCurrentScore(score);
@@ -48,7 +46,4 @@ public class GameController {
     public int getTopScore() {
     	return game.getTopScore();
     }
-=======
-
->>>>>>> c571c55a595f4dee8cbb875bf983c4806b7e1fbc
 }
