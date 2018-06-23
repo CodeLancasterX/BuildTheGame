@@ -17,7 +17,7 @@ public class PuzzleBlock {
         for (int y = 0; y < 5; y++) {
             for (int x = 0; x < 5; x++) {
                 blockShape[y][x] = tokens[y*x] == 'x';
-                System.out.println(tokens[x]);
+//                System.out.println(tokens[x]);
             }
         }
     }
