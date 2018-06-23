@@ -13,7 +13,7 @@ public class GridPanel extends JPanel {
     public GridPanel(GameController gameController){
         this.setLayout(new GridLayout(10,10));
         this.setPreferredSize(new Dimension(gridWidth,gridHeight));
-        this.setBackground(Color.yellow);
+        this.setBackground(Color.darkGray);
     }
 
     public int getGridWidth() {
