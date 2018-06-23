@@ -32,12 +32,12 @@ public class Game implements Runnable{
             //TODO show the right shapes in console. first shape should be -> true false false false false.
             puzzleBlock.getBlockShape();
             if (x == 4){
-                System.out.print(puzzleBlock.getBlockShape()[y][x]+ " ");
+                System.out.print(puzzleBlock.getBlockShape()[0][x]+ " ");
                 System.out.print(y + " " + x);
                 System.out.println(" ");
 
             } else {
-                System.out.print(puzzleBlock.getBlockShape()[y][x]+ " ");
+                System.out.print(puzzleBlock.getBlockShape()[0][x]+ " ");
                 System.out.print(y + " " + x);
                 System.out.print(" ");
             }
