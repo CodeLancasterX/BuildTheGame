@@ -12,6 +12,7 @@ public class Game implements Runnable{
     public Game(){
         gameGrid = new Grid();
         dock = new ArrayList<PuzzleBlock>();
+        checkTopScore();
     }
 
     @Override
@@ -46,4 +47,11 @@ public class Game implements Runnable{
 	public void setTopScore(int topScore) {
 		this.topScore = topScore;
 	}
+	
+	public void checkTopScore() {
+		if(currentScore > topScore) {
+			topScore = currentScore;
+		}
+	}
+
 }
