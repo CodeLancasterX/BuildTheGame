@@ -1,5 +1,7 @@
 package Model;
 
+import Controller.GameController;
+
 import java.util.ArrayList;
 import java.util.Random;
 
@@ -9,10 +11,10 @@ public class Game implements Runnable{
     private ArrayList<PuzzleBlock> dock;
     private int currentScore;
     private int topScore;
-    private final int maxGridSize = 3;
+    private final int maxDockSize = 3;
 
-    public Game(){
-        gameGrid = new Grid();
+    public Game(GameController gameController){
+        gameGrid = new Grid(gameController);
         dock = new ArrayList<PuzzleBlock>();
         checkTopScore();
     }
@@ -34,16 +36,16 @@ public class Game implements Runnable{
 
             //TODO show the right shapes in console. first shape should be -> true false false false false.
             puzzleBlock.getBlockShape();
-//            if (x == 4){
-//                System.out.print(puzzleBlock.getBlockShape()[0][0]+ " ");
-//                System.out.print(y + " " + x);
-//                System.out.println(" ");
-//
-//            } else {
-//                System.out.print(puzzleBlock.getBlockShape()[0][0]+ " ");
-//                System.out.print(y + " " + x);
-//                System.out.print(" ");
-//            }
+            if (x == 4){
+                System.out.print(puzzleBlock.getBlockShape()[y][x]+ " ");
+                System.out.print(y + " " + x);
+                System.out.println(" ");
+
+            } else {
+                System.out.print(puzzleBlock.getBlockShape()[y][x]+ " ");
+                System.out.print(y + " " + x);
+                System.out.print(" ");
+            }
 
 
             }
@@ -53,7 +55,11 @@ public class Game implements Runnable{
 
     public void generateRandomBlock(){
         Random random = new Random();
-        random.nextInt(19);
+        for (int i = 0; i < maxDockSize; i++){
+            random.nextInt(19);
+
+        }
+
     }
 
     public Grid getGameGrid() {
@@ -75,7 +81,7 @@ public class Game implements Runnable{
 	public void setTopScore(int topScore) {
 		this.topScore = topScore;
 	}
-	
+
 	public void checkTopScore() {
 		if(currentScore > topScore) {
 			topScore = currentScore;

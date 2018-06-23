@@ -1,5 +1,7 @@
 package Controller;
 
+import java.io.File;
+import java.util.ArrayList;
 import java.util.List;
 
 import Model.Filereader;
@@ -14,15 +16,19 @@ public class GameController {
     List<String> puzzleShapes;
 
     public GameController() {
-        mainFrame = new MainFrame(this);
-        game = new Game();
         filereader = new Filereader();
-
         //add list of puzzleshapes
         puzzleShapes =  filereader.readFile("src/Config/config.txt");
+        mainFrame = new MainFrame(this);
+        game = new Game(this);
+
+
+
 
         for (int i = 0; i < puzzleShapes.size(); i++) {
             game.addPuzzleBlocks(puzzleShapes.get(i));
+            System.out.println(puzzleShapes.get(2));
+            //connect puzzleshapes yo a key in a hashmap.
         }
 
     }
@@ -49,5 +55,9 @@ public class GameController {
     
     public int getTopScore() {
     	return game.getTopScore();
+    }
+
+    public List getConfigFile(){
+        return puzzleShapes;
     }
 }

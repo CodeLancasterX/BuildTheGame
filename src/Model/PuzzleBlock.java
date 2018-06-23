@@ -11,11 +11,13 @@ public class PuzzleBlock {
     public PuzzleBlock(String representation){
         //rows of booleans, if true, block is placed, if false spot is empty.
         blockShape = new boolean[5][5];
+        int counter = 0;
+
         char[] tokens = representation.toCharArray();
         for (int y = 0; y < 5; y++) {
             for (int x = 0; x < 5; x++) {
-                blockShape[y][x] = tokens[y*x] == 'x';
-//                System.out.println(tokens[x]);
+                blockShape[y][x] = tokens[counter] == 'x';
+                counter++;
             }
         }
     }
