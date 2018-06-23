@@ -8,6 +8,7 @@ public class Game implements Runnable{
     private ArrayList<PuzzleBlock> dock;
     private int currentScore;
     private int topScore;
+    private final int maxGridSize = 3;
 
     public Game(){
         gameGrid = new Grid();
@@ -26,6 +27,10 @@ public class Game implements Runnable{
 
     public void addPuzzleBlocks(){
         //add 3 random puzzlepieces.
+        for (int i = 0; i < maxGridSize; i++){
+
+        }
+//        dock.add();
     }
 
     public Grid getGameGrid() {

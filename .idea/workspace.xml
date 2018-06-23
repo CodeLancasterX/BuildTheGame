@@ -2,18 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e10b50e-cd06-4ad3-a6be-46e59ac9f116" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Controller/GameController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tentamen_Prog4_Her/Controller/MainClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tentamen_Prog4_Her/Controller/MainClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tentamen_Prog4_Her/Model/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tentamen_Prog4_Her/Model/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tentamen_Prog4_Her/Controller/GameController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tentamen_Prog4_Her/Controller/GameController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Tentamen_Prog4_Her/Model/PuzzleBlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tentamen_Prog4_Her/Model/PuzzleBlock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tentamen_Prog4_Her/View/GridPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tentamen_Prog4_Her/View/GridPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/GameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Filereader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Filereader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Model/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Model/PuzzleBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/PuzzleBlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/ContentPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/ContentPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/GridPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/GridPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/MainFrame.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,8 +23,8 @@
       <file leaf-file-name="MainFrame.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/View/MainFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+            <state relative-caret-position="230">
+              <caret line="15" selection-start-line="15" selection-end-line="16" selection-end-column="181" />
             </state>
           </provider>
         </entry>
@@ -61,7 +56,7 @@
       <file leaf-file-name="GridPanel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/View/GridPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
+            <state relative-caret-position="140">
               <caret line="13" column="46" lean-forward="true" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -89,8 +84,8 @@
       <file leaf-file-name="GameController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controller/GameController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+            <state relative-caret-position="232">
+              <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#268#269#0" expanded="true" />
@@ -114,32 +109,41 @@
       <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Model/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            <state relative-caret-position="278">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="e#346#347#0" expanded="true" />
                 <element signature="e#373#374#0" expanded="true" />
-                <element signature="e#406#407#0" expanded="true" />
-                <element signature="e#437#438#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PuzzleBlock.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PuzzleBlock.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Model/PuzzleBlock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="41" lean-forward="true" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+            <state relative-caret-position="460">
+              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
               <folding>
-                <element signature="e#168#169#0" expanded="true" />
-                <element signature="e#216#217#0" expanded="true" />
                 <element signature="e#270#271#0" expanded="true" />
                 <element signature="e#305#306#0" expanded="true" />
                 <element signature="e#334#335#0" expanded="true" />
                 <element signature="e#362#363#0" expanded="true" />
                 <element signature="e#382#383#0" expanded="true" />
                 <element signature="e#411#412#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Filereader.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Model/Filereader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#288#296#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -166,14 +170,18 @@
         <option value="$PROJECT_DIR$/src/Controller/Main.java" />
         <option value="$PROJECT_DIR$/src/View/DockPanel.java" />
         <option value="$PROJECT_DIR$/src/View/InfoPanel.java" />
-        <option value="$PROJECT_DIR$/src/Model/Grid.java" />
         <option value="$PROJECT_DIR$/src/Controller/MainClass.java" />
         <option value="$PROJECT_DIR$/src/View/GridPanel.java" />
-        <option value="$PROJECT_DIR$/src/View/MainFrame.java" />
         <option value="$PROJECT_DIR$/src/View/ContentPanel.java" />
+        <option value="$PROJECT_DIR$/src/Model/FIleReader.java" />
+        <option value="$PROJECT_DIR$/src/Model/FileReader.java" />
+        <option value="$PROJECT_DIR$/src/View/MainFrame.java" />
+        <option value="$PROJECT_DIR$/src/Model/Filereader.java" />
+        <option value="$PROJECT_DIR$/src/Model/Grid.java" />
+        <option value="$PROJECT_DIR$/Save/savegame.txt" />
+        <option value="$PROJECT_DIR$/src/Model/PuzzleBlock.java" />
         <option value="$PROJECT_DIR$/src/Model/Game.java" />
         <option value="$PROJECT_DIR$/src/Controller/GameController.java" />
-        <option value="$PROJECT_DIR$/src/Model/PuzzleBlock.java" />
       </list>
     </option>
   </component>
@@ -198,6 +206,16 @@
             <path>
               <item name="TentamenProg4" type="b2602c69:ProjectViewProjectNode" />
               <item name="TentamenProg4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TentamenProg4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TentamenProg4" type="462c0819:PsiDirectoryNode" />
+              <item name="Config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TentamenProg4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TentamenProg4" type="462c0819:PsiDirectoryNode" />
+              <item name="Save" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TentamenProg4" type="b2602c69:ProjectViewProjectNode" />
@@ -319,26 +337,33 @@
       <option name="presentableId" value="Default" />
       <updated>1529618483005</updated>
     </task>
+    <task id="LOCAL-00001" summary="work in progress.">
+      <created>1529668493899</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1529668493899</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32985386" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32881" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32881" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25479743" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25479743" />
       <window_info id="Learn" order="2" weight="0.3296" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -377,6 +402,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="work in progress." />
+    <option name="LAST_COMMIT_MESSAGE" value="work in progress." />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Model/Game.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -385,8 +414,6 @@
           <folding>
             <element signature="e#346#347#0" expanded="true" />
             <element signature="e#373#374#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -465,8 +492,6 @@
         <state relative-caret-position="115">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
           <folding>
-            <element signature="e#168#169#0" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
             <element signature="e#270#271#0" expanded="true" />
             <element signature="e#305#306#0" expanded="true" />
             <element signature="e#334#335#0" expanded="true" />
@@ -484,8 +509,6 @@
           <folding>
             <element signature="e#346#347#0" expanded="true" />
             <element signature="e#373#374#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -648,8 +671,6 @@
           <folding>
             <element signature="e#346#347#0" expanded="true" />
             <element signature="e#373#374#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -661,8 +682,6 @@
           <folding>
             <element signature="e#346#347#0" expanded="true" />
             <element signature="e#373#374#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -757,26 +776,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/DockPanel.java">
+    <entry file="file://$PROJECT_DIR$/src/View/InfoPanel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/GridPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="13" column="46" lean-forward="true" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -791,30 +796,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Game.java">
+    <entry file="file://$PROJECT_DIR$/src/View/MainFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="230">
+          <caret line="15" selection-start-line="15" selection-end-line="16" selection-end-column="181" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/DockPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
           <folding>
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/GameController.java">
+    <entry file="file://$PROJECT_DIR$/src/View/GridPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        <state relative-caret-position="140">
+          <caret line="13" column="46" lean-forward="true" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Save/savegame.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -825,36 +841,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/InfoPanel.java">
+    <entry file="file://$PROJECT_DIR$/src/Controller/GameController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        <state relative-caret-position="232">
+          <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/MainFrame.java">
+    <entry file="file://$PROJECT_DIR$/src/Model/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+        <state relative-caret-position="278">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Model/PuzzleBlock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="41" lean-forward="true" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+        <state relative-caret-position="460">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding>
-            <element signature="e#168#169#0" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
             <element signature="e#270#271#0" expanded="true" />
             <element signature="e#305#306#0" expanded="true" />
             <element signature="e#334#335#0" expanded="true" />
             <element signature="e#362#363#0" expanded="true" />
             <element signature="e#382#383#0" expanded="true" />
             <element signature="e#411#412#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Filereader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#288#296#0" expanded="true" />
           </folding>
         </state>
       </provider>
